@@ -1,0 +1,90 @@
+.cardLogin {
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0px 0px 6px #00000040;
+}
+
+.titLogin {
+    color: #000000;
+    font-family: Century-Bold;
+    text-shadow: 1px 1px 1px #00000020;
+}
+
+.txtLogin {
+    color: #2D3A3F;
+    font-family: Century-Bold;
+    font-size: 35px;
+}
+
+.titCardLogin {
+    color: #2D3A3F;
+    font-family: Century-Bold;
+}
+
+.titCardRegister {
+    color: #D41968;
+    font-family: Century-Bold;
+    font-size: 18px;
+}
+
+.txtHelp {
+    color: #2D3A3F;
+    font-family: Century-Regular;
+    font-size: 16px;
+    text-align: left;
+}
+.linkTerminosRegistro {
+    color: #D41968;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.linkTerminosRegistro:hover {
+    color: #D41968;
+}
+.titRegistrar {
+    font-size: 16px;
+    color: #D41968;
+    font-weight: bold;
+}
+.noWrap {
+    white-space: nowrap;
+}
+@media (min-width: 320px) {
+    .contRegistro {
+        padding: 5% 0;
+    }
+
+    .titLogin {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .txtLogin {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contRegistro {
+        padding: 2%;
+    }
+
+    .titLogin {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .txtLogin {
+        font-size: 22px;
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

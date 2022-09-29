@@ -1,0 +1,47 @@
+.contFooter {
+    background-color: #2a2a2a;
+    margin-top: 0px;
+    padding: 10px 0;
+}
+.txtFooter {
+    margin-bottom: 0px;
+}
+.linkTerminos {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    display: inline-block;
+}
+.linkTerminos:hover {
+    color: white;
+}
+@media (min-width: 320px) {
+    .contFooter {
+        height: auto;
+    }
+    .contLogoFooter {
+        text-align: center;
+    }
+    .logoFooter { 
+        width: 100px;
+        height: auto;
+    }
+    .contTxtFooter {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    /* .contFooter {
+        height: 122px;
+    } */
+    .contLogoFooter {
+        text-align: left;
+    }
+    .logoFooter { 
+        width: 50px;
+        height: auto;
+    }
+    .contTxtFooter {
+        text-align: right;
+    }
+}

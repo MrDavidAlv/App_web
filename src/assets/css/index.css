@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Century-Regular, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* @font-face {
+    font-family: Abadi-Regular;
+    src: url(./assets/fonts/abadi-mt-regular.ttf);
+  }
+  @font-face {
+    font-family: Abadi-Condensed;
+    src: url(./assets/fonts/abadi-mt-condensed.ttf);
+  }
+  @font-face {
+    font-family: Abadi-Extra-Bold;
+    src: url(./assets/fonts/Abadi-MT-Condensed-Extra-Bold-Regular-Font.ttf);
+  }
+  @font-face {
+    font-family: Abadi-Bold;
+    src: url(./assets/fonts/abadi-mt-condensed-bold.ttf);
+  }
+  @font-face {
+    font-family: Abadi-Light;
+    src: url(./assets/fonts/abadi-mt-condensed-light.ttf);
+  }
+  
+  @font-face {
+    font-family: Century-Regular;
+    src: url(./assets/fonts/07558_CenturyGothic.ttf);
+  }
+  @font-face {
+    font-family: Century-Bold;
+    src: url(./assets/fonts/07553_CenturyGothicBold.ttf);
+  }
+  @font-face {
+    font-family: Century-Italic;
+    src: url(./assets/fonts/07556_CenturyGothicItalic.ttf);
+  } */
+  
+  .colores {
+    /* fuccia mok */
+    color: #D41968;
+    /* grafito medio */
+    color: #2D3A3F;
+    /* grafito claro */
+    color: #818B8C;
+  }
+  /* start Buttons */
+  .btPrincipal {
+    background-color: #D41968;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: Century-Bold;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+  }
+  .btPrincipal:hover {
+    background-color: #D41968;
+    color: white;
+  }
+  .btSecundario {
+    background-color: #818B8C;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: Century-Bold;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+  }
+  .btSecundario:hover {
+    background-color: #D41968;
+    color: white;
+  }
+  .btLink {
+    background-color: #ffffff00;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Century-Regular;
+    color: #2D3A3F;
+    border: none;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .btLink:hover {
+    background-color: #ffffff00;
+    color: #2D3A3F;
+  }
+  /* end Buttons */
+  /* start inputs */
+  .labelsFormularios {
+    font-family: Century-Bold;
+    color: #2D3A3F;
+    font-size: 16px;
+    text-align: left;
+  }
+  /* end inputs */
+  @media (min-width: 320px) {
+   
+  }
+  @media (min-width: 768px) {
+    
+  }
+  
